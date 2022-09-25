@@ -1,0 +1,252 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Behieril/Desktop/playright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "C:/Users/Behieril/Desktop/playright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/5TestCasesHw.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/Behieril/Desktop/playright/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.0",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "C:\\Users\\Behieril\\Desktop\\playright",
+    "_configDir": "C:\\Users\\Behieril\\Desktop\\playright",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "5TestCasesHw.test.ts",
+      "file": "5TestCasesHw.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "5TestCases",
+          "file": "5TestCasesHw.test.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Registration test",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 11907,
+                      "error": {
+                        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.redmine.org/\u001b[7mlogin\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.redmine.org/\u001b[7maccount/register\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for selector \":root\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.redmine.org/\u001b[7mlogin\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.redmine.org/\u001b[7maccount/register\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for selector \":root\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.redmine.org/account/register\"\u001b[22m\n\n    at C:\\Users\\Behieril\\Desktop\\playright\\tests\\5TestCasesHw.test.ts:49:24"
+                      },
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-24T09:00:51.760Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Behieril\\Desktop\\playright\\tests\\5TestCasesHw.test.ts",
+                        "column": 24,
+                        "line": 49
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6ca1a373202e88212b8c-ed0df2fa137c31e53424",
+              "file": "5TestCasesHw.test.ts",
+              "line": 5,
+              "column": 3
+            },
+            {
+              "title": "Site search test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 3183,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-24T09:01:05.659Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6ca1a373202e88212b8c-d4e6e6923934bc75338e",
+              "file": "5TestCasesHw.test.ts",
+              "line": 54,
+              "column": 3
+            },
+            {
+              "title": "Side panel links test",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 8150,
+                      "error": {
+                        "message": "locator.click: Error: strict mode violation: \"div#sidebar>ul>li>a\" resolved to 3 elements:\n    1) <a href=\"/\">Start page</a> aka playwright.$(\"text=Start page\")\n    2) <a href=\"/projects/redmine/wiki/index\">Index by title</a> aka playwright.$(\"text=Index by title\")\n    3) <a href=\"/projects/redmine/wiki/date_index\">Index by date</a> aka playwright.$(\"text=Index by date\")\n\n=========================== logs ===========================\nwaiting for selector \"div#sidebar>ul>li>a\"\n  strict mode violation: \"div#sidebar>ul>li>a\" resolved to 3 elements:\n    1) <a href=\"/\">Start page</a> aka playwright.$(\"text=Start page\")\n    2) <a href=\"/projects/redmine/wiki/index\">Index by title</a> aka playwright.$(\"text=Index by title\")\n    3) <a href=\"/projects/redmine/wiki/date_index\">Index by date</a> aka playwright.$(\"text=Index by date\")\n\n============================================================",
+                        "stack": "locator.click: Error: strict mode violation: \"div#sidebar>ul>li>a\" resolved to 3 elements:\n    1) <a href=\"/\">Start page</a> aka playwright.$(\"text=Start page\")\n    2) <a href=\"/projects/redmine/wiki/index\">Index by title</a> aka playwright.$(\"text=Index by title\")\n    3) <a href=\"/projects/redmine/wiki/date_index\">Index by date</a> aka playwright.$(\"text=Index by date\")\n\n=========================== logs ===========================\nwaiting for selector \"div#sidebar>ul>li>a\"\n  strict mode violation: \"div#sidebar>ul>li>a\" resolved to 3 elements:\n    1) <a href=\"/\">Start page</a> aka playwright.$(\"text=Start page\")\n    2) <a href=\"/projects/redmine/wiki/index\">Index by title</a> aka playwright.$(\"text=Index by title\")\n    3) <a href=\"/projects/redmine/wiki/date_index\">Index by date</a> aka playwright.$(\"text=Index by date\")\n\n============================================================\n    at C:\\Users\\Behieril\\Desktop\\playright\\tests\\5TestCasesHw.test.ts:118:47"
+                      },
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-24T09:01:09.522Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Behieril\\Desktop\\playright\\tests\\5TestCasesHw.test.ts",
+                        "column": 47,
+                        "line": 118
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6ca1a373202e88212b8c-46554c981520b01a88c2",
+              "file": "5TestCasesHw.test.ts",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "Main Panel Link Test",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "timedOut",
+                      "duration": 30011,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-24T09:01:18.585Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6ca1a373202e88212b8c-e2632507b70c89b18c20",
+              "file": "5TestCasesHw.test.ts",
+              "line": 130,
+              "column": 3
+            },
+            {
+              "title": "test",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "timedOut",
+                      "duration": 30005,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-24T09:01:50.070Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6ca1a373202e88212b8c-c02c43b899c490a20a50",
+              "file": "5TestCasesHw.test.ts",
+              "line": 161,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

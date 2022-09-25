@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 25 20:54:19 MSK 2022","Sun Sep 25 20:54:29 MSK 2022","9640","","","5TestCases","","","Sign In test",""
+"passed","Sun Sep 25 20:54:12 MSK 2022","Sun Sep 25 20:54:19 MSK 2022","6777","","","5TestCases","","","Main-menu Test",""
+"passed","Sun Sep 25 20:53:46 MSK 2022","Sun Sep 25 20:53:58 MSK 2022","11723","","","5TestCases","","","Registration test",""
+"passed","Sun Sep 25 20:54:02 MSK 2022","Sun Sep 25 20:54:12 MSK 2022","9881","","","5TestCases","","","Sidebar links test",""
+"passed","Sun Sep 25 20:53:58 MSK 2022","Sun Sep 25 20:54:02 MSK 2022","4385","","","5TestCases","","","Site search test",""
